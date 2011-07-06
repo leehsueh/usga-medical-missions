@@ -96,9 +96,10 @@ body {
     color: #ffbbbb;
     background: rgba(136,0,17,0.6);
     padding: 1.5em 0.8em;
-    text-align: center;
+    text-align: left;
     border-radius: 16px;
     border: 1px solid #ffaaaa;
+    padding-left: 180px;
 }
 #container header h1, #container header h2 {
     text-shadow: 0 1px rgba(0,0,0,0.8);
@@ -120,6 +121,10 @@ body {
     box-shadow: 0 0 10px white, 0 0 30px rgba(0, 0, 0, 0.8);
     border: 2px white solid;
     color: rgba(136, 0, 17, 0.7);
+    position: absolute;
+    left: 6%;
+    top: 0;
+    text-align: center;
 }
  #container header h2 {
     font-size: 1.5em;
@@ -132,6 +137,7 @@ body {
     text-indent: 1.5em;  
     line-height: 1.2em;
     margin: 1em 0;
+    text-align: justify;
 }
 #container #main h2 {
     text-shadow: 0 1px #ddd;
@@ -139,6 +145,7 @@ body {
     word-spacing: 0.2em; 
     margin: 40px 0 10px 0;
     font-size: 200%;
+    text-align: center;
 }
 #container p#survey_block {
     text-align: center;   
