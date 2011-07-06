@@ -108,12 +108,18 @@ body {
     font-size: 3em;
 }
 #container header h1#cross {
-
     font-size: 8em;
     margin: 0;
     padding: 0;
     line-height: 1em;
     text-shadow: 0 0 20px rgba(0,0,0,0.8);
+    background: #EFEFEF;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white, 0 0 30px rgba(0, 0, 0, 0.8);
+    border: 2px white solid;
+    color: rgba(136, 0, 17, 0.7);
 }
  #container header h2 {
     font-size: 1.5em;
