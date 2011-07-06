@@ -100,6 +100,7 @@ body {
     border-radius: 16px;
     border: 1px solid #ffaaaa;
     padding-left: 180px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.7);
 }
 #container header h1, #container header h2 {
     text-shadow: 0 1px rgba(0,0,0,0.8);
@@ -129,10 +130,20 @@ body {
  #container header h2 {
     font-size: 1.5em;
 }
+#container #main {
+    background: rgba(250, 250, 250, 0.8);
+    width: 85%;
+    margin: 0 auto;
+    padding: 2em;
+    z-index: -1;
+    border-radius: 8px;
+    padding-bottom: 2.5em;
+    display: none;
+}
 #container #main p {
     text-shadow: 0 1px #CCCCCC;
     letter-spacing: 0.15em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     word-spacing: 0.2em;
     text-indent: 1.5em;  
     line-height: 1.2em;
