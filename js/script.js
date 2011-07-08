@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $("#main").slideDown(700);
+    $("#main").delay(500).slideDown(700);
 });
